@@ -1,5 +1,5 @@
-// toda variável é um objeto
-// usar "vírgula(,)" para printar variáveis de tipos diferentes
+# toda variável é um objeto
+# usar "vírgula(,)" para printar variáveis de tipos diferentes
 
 nome = input('Qual é o seu nome? ')
 print(f'Olá, {nome}! Seja bem-vindo!')
