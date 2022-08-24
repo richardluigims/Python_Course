@@ -15,4 +15,4 @@ pot = n1 ** n2 #potência
 resto = n1 % n2 #resto da divisão
 
 print(f'Soma: {soma}. Produto: {mult}. Divisão: {div:.2f}.', end=' ') #end = comando para não pular linha (dar um 'espaço' nas aspas simples para não grudar). Pode usar outros comandos tbm ---> end='>>>'
-print(f'Divisão inteira: {divInt}. Potência: {pot}')
+print(f'Divisão inteira: {divInt}. Potência: {pot}')                  #end adiciona algo no fim da linha, e impede q ela seja quebrada
