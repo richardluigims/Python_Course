@@ -11,8 +11,11 @@ soma = n1 + n2 #soma
 mult = n1 * n2 #multiplicação
 div = n1 / n2 #divisão float
 divInt = n1 // n2 #divisão inteira
-pot = n1 ** n2 #potência. também pode ser pow(n1,n2)
+pot = n1 ** n2 #potência
 resto = n1 % n2 #resto da divisão
+Rq1 = n1**(1/2) #raíz quadrada
+Rq2 = n2**(1/2)
 
-print(f'Soma: {soma}. Produto: {mult}. Divisão: {div:.2f}.', end=' ') #end = comando para não pular linha (dar um 'espaço' nas aspas simples para não grudar). Pode usar outros comandos tbm ---> end='>>>'
-print(f'Divisão inteira: {divInt}. Potência: {pot}')                  #end adiciona algo no fim da linha, e impede q ela seja quebrada
+print(f'Soma: {soma}. Produto: {mult}. Divisão: {div:.2f}.', end=' ') #end adiciona algo no fim da linha e impede que ela quebre
+print(f'Divisão inteira: {divInt}. Potência: {pot}')
+print(f'A raíz quadrada do primeiro é {Rq1:.2f}, e do segundo é {Rq2}')
