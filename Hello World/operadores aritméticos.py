@@ -14,5 +14,5 @@ divInt = n1 // n2 #divisão inteira
 pot = n1 ** n2 #potência
 resto = n1 % n2 #resto da divisão
 
-print(f'Soma: {soma}. Produto: {mult}. Divisão: {div:.2f}.', end='') #end = comando para não pular linha
+print(f'Soma: {soma}. Produto: {mult}. Divisão: {div:.2f}.', end=' ') #end = comando para não pular linha (dar um 'espaço' nas aspas simples para não grudar)
 print(f'Divisão inteira: {divInt}. Potência: {pot}')
