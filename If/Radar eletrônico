@@ -1,0 +1,8 @@
+n1 = float(input('Quantos Km? '))
+n2 = (n1 - 80)*7
+
+if n1 > 80:
+    print('Velocidade acima do limite!')
+    print(f'Você foi multado em R${n2:.2f}!')
+
+print(f'Velocidade acima do limite! \nVocê foi multado em R${n2:.2f}!' if n1>80 else 'Velocidade permitida')
