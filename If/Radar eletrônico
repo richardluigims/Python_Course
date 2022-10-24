@@ -1,8 +1,4 @@
-n1 = float(input('Quantos Km? '))
-n2 = (n1 - 80)*7
+print('Pare! Radar eletrônico à frente! Responda a pergunta para continuar')
+n1 = float(input('Em qual velocidade você estava? '))
 
-if n1 > 80:
-    print('Velocidade acima do limite!')
-    print(f'Você foi multado em R${n2:.2f}!')
-
-print(f'Velocidade acima do limite! \nVocê foi multado em R${n2:.2f}!' if n1>80 else 'Velocidade permitida')
+print(f'O limite é 80 Km/h. Você foi multado em R${(n1-80)*7:.2f}. Pague a multa antes de prosseguir.' if n1>80 else 'Você está dentro do limite. Pode passar, senhor.')
